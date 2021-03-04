@@ -21,7 +21,7 @@ services:
 
   pgadmin:
     restart: always
-    image: dpage/pgadmin4:4.30
+    image: dpage/pgadmin4
     container_name: postgres_admin
     environment:
       - PGADMIN_DEFAULT_EMAIL

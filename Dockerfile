@@ -1,4 +1,4 @@
-FROM postgres:13.2-alpine
+FROM postgres:9.4-alpine
 
 ENV DEFAULT_TIMEZONE UTC
 
